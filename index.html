@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML CSS JavaScript Practical Programs</title><link rel="stylesheet" href="assets/style.css">
+<style>
+body{background:linear-gradient(135deg,#f8fbff,#eef2ff 55%,#faf5ff)}
+.hero{max-width:1150px;margin:0 auto;padding:70px 20px 30px;text-align:center}
+.hero .tag{display:inline-block;padding:7px 12px;border-radius:999px;background:#fff;border:1px solid #e4e7ec;color:#475467;font-weight:700;font-size:.85rem}
+.hero h1{font-size:clamp(2.1rem,5vw,4rem);line-height:1.08;margin:18px 0 12px}
+.hero h1 span{color:#2563eb}.hero p{max-width:760px;margin:auto;color:#667085;font-size:1.05rem}
+.student{margin:25px auto 0;max-width:680px;background:#fff;border:1px solid #e4e7ec;border-radius:18px;padding:16px;box-shadow:var(--shadow)}
+.grid{max-width:1150px;margin:30px auto 70px;padding:0 20px;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border:1px solid #e4e7ec;border-radius:22px;padding:28px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:250px}
+.icon{width:54px;height:54px;display:grid;place-items:center;border-radius:15px;background:#eef4ff;font-size:1.5rem}
+.card h2{margin:20px 0 8px}.card p{color:#667085;flex:1}.btn{display:inline-block;text-decoration:none;text-align:center;padding:12px 16px;border-radius:11px;background:#182230;color:#fff;font-weight:750}.btn:hover{background:#2563eb}
+@media(max-width:850px){.grid{grid-template-columns:1fr}}
+</style></head><body>
+<nav class="site-nav"><a class="brand" href="index.html">WTIP Practical Programs</a><div class="links"><a href="html/index.html">HTML</a><a href="css/index.html">CSS</a><a href="javascript/index.html">JavaScript</a><a href="README.md">README</a></div></nav>
+<header class="hero"><span class="tag">Web Technology & Internet Programming</span><h1>HTML <span>•</span> CSS <span>•</span> JavaScript<br>Practical Programs</h1>
+<p>A complete collection of practical programs with separate executable HTML files, organized by subject area and ready to run in a browser.</p>
+<div class="student"><strong>Pusala Nithin</strong> &nbsp;•&nbsp; Register No. 250200185 &nbsp;•&nbsp; Section 5</div></header>
+<main class="grid">
+<article class="card"><div class="icon">🌐</div><h2>HTML Programs</h2><p>Fundamentals, lists, tables, forms, multimedia, semantic HTML, HTML5 inputs, and practical webpages.</p><a class="btn" href="html/index.html">View HTML Programs →</a></article>
+<article class="card"><div class="icon">🎨</div><h2>CSS Programs</h2><p>Selectors, box model, positioning, Flexbox, Grid, responsive layouts, animations, effects, and complete designs.</p><a class="btn" href="css/index.html">View CSS Programs →</a></article>
+<article class="card"><div class="icon">⚡</div><h2>JavaScript Programs</h2><p>JavaScript basics, functions, arrays, DOM, events, forms, browser objects, storage, and mini projects.</p><a class="btn" href="javascript/index.html">View JavaScript Programs →</a></article>
+</main>
+<footer class="site-footer">All programs are maintained as separate HTML files for practical demonstration and easy navigation.</footer>
+</body></html>
