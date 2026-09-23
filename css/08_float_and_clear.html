@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>08 - Float and Clear</title>
+<style>
+        body { font-family: sans-serif; padding: 20px; }
+        .img-float { float: left; width: 150px; margin-right: 20px; margin-bottom: 10px; border-radius: 8px; }
+        .clearfix::after { content: ""; clear: both; display: table; }
+        .clear-box { clear: both; background: #34495e; color: white; padding: 10px; margin-top: 20px; }
+    </style>
+<link href="../assets/style.css" rel="stylesheet"/></head>
+<body><nav class="site-nav"><a class="brand" href="../index.html">WTIP Practical Programs</a><div class="links"><a href="../index.html">Home</a><a href="index.html">Css Programs</a></div></nav>
+<div class="clearfix">
+<img alt="Placeholder" class="img-float" src="https://via.placeholder.com/150"/>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Float properties cause text to wrap around images.</p>
+</div>
+<div class="clear-box">This box clears floats using clear: both.</div>
+<footer class="site-footer">Pusala Nithin • 250200185 • Section 5 • Web Technology and Internet Programming</footer></body>
+</html>

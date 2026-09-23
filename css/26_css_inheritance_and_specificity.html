@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>26 - Inheritance &amp; Specificity</title>
+<style>
+        body { font-family: sans-serif; color: blue; } /* Inherited by child elements */
+        p { color: green; } /* Specificity 0,0,0,1 */
+        .text { color: orange; } /* Specificity 0,0,1,0 (Overrides p) */
+        #unique-text { color: red; } /* Specificity 0,1,0,0 (Overrides class) */
+    </style>
+<link href="../assets/style.css" rel="stylesheet"/></head>
+<body><nav class="site-nav"><a class="brand" href="../index.html">WTIP Practical Programs</a><div class="links"><a href="../index.html">Home</a><a href="index.html">Css Programs</a></div></nav>
+<h2>CSS Specificity Hierarchy</h2>
+<p class="text" id="unique-text">This text will be RED because ID (#unique-text) has highest specificity.</p>
+<footer class="site-footer">Pusala Nithin • 250200185 • Section 5 • Web Technology and Internet Programming</footer></body>
+</html>

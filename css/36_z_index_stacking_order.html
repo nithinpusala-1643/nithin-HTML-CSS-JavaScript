@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>36 - Z-Index Stacking Order</title>
+<style>
+        .container { position: relative; }
+        .box { position: absolute; width: 120px; height: 120px; color: white; font-weight: bold; padding: 10px; font-family: sans-serif; }
+        .box1 { background: red; top: 20px; left: 20px; z-index: 1; }
+        .box2 { background: blue; top: 50px; left: 50px; z-index: 3; }
+        .box3 { background: green; top: 80px; left: 80px; z-index: 2; }
+    </style>
+<link href="../assets/style.css" rel="stylesheet"/></head>
+<body><nav class="site-nav"><a class="brand" href="../index.html">WTIP Practical Programs</a><div class="links"><a href="../index.html">Home</a><a href="index.html">Css Programs</a></div></nav>
+<div class="container">
+<div class="box box1">Z-Index: 1</div>
+<div class="box box2">Z-Index: 3 (Top)</div>
+<div class="box box3">Z-Index: 2</div>
+</div>
+<footer class="site-footer">Pusala Nithin • 250200185 • Section 5 • Web Technology and Internet Programming</footer></body>
+</html>

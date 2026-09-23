@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>29 - CSS Variables</title>
+<style>
+        :root {
+            --primary-color: #8e44ad;
+            --secondary-color: #f39c12;
+            --padding-standard: 16px;
+        }
+        .box {
+            background-color: var(--primary-color);
+            color: white;
+            padding: var(--padding-standard);
+            border-left: 5px solid var(--secondary-color);
+            font-family: sans-serif;
+        }
+    </style>
+<link href="../assets/style.css" rel="stylesheet"/></head>
+<body><nav class="site-nav"><a class="brand" href="../index.html">WTIP Practical Programs</a><div class="links"><a href="../index.html">Home</a><a href="index.html">Css Programs</a></div></nav>
+<div class="box">Styled using Custom CSS Variables (--primary-color)</div>
+<footer class="site-footer">Pusala Nithin • 250200185 • Section 5 • Web Technology and Internet Programming</footer></body>
+</html>

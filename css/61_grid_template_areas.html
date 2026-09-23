@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>61 - Grid Template Areas</title>
+<style>
+        .layout {
+            display: grid;
+            grid-template-areas:
+                'header header'
+                'sidebar main'
+                'footer footer';
+            grid-template-columns: 150px 1fr;
+            gap: 10px;
+            font-family: sans-serif;
+        }
+        .header { grid-area: header; background: #ff7675; padding: 15px; }
+        .sidebar { grid-area: sidebar; background: #74b9ff; padding: 15px; }
+        .main { grid-area: main; background: #55efc4; padding: 15px; }
+        .footer { grid-area: footer; background: #a29bfe; padding: 15px; }
+    </style>
+<link href="../assets/style.css" rel="stylesheet"/></head>
+<body><nav class="site-nav"><a class="brand" href="../index.html">WTIP Practical Programs</a><div class="links"><a href="../index.html">Home</a><a href="index.html">Css Programs</a></div></nav>
+<div class="layout">
+<div class="header">Header Area</div>
+<div class="sidebar">Sidebar Area</div>
+<div class="main">Main Content Area</div>
+<div class="footer">Footer Area</div>
+</div>
+<footer class="site-footer">Pusala Nithin • 250200185 • Section 5 • Web Technology and Internet Programming</footer></body>
+</html>

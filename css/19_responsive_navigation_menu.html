@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>19 - Responsive Nav</title>
+<style>
+        body { margin: 0; font-family: sans-serif; }
+        .nav { display: flex; justify-content: space-between; align-items: center; background: #333; color: white; padding: 10px 20px; }
+        .nav-links { display: flex; list-style: none; gap: 20px; margin: 0; padding: 0; }
+        .nav-links a { color: white; text-decoration: none; }
+        @media (max-width: 600px) { .nav-links { flex-direction: column; width: 100%; display: none; } .nav.active .nav-links { display: flex; } }
+    </style>
+<link href="../assets/style.css" rel="stylesheet"/></head>
+<body><nav class="site-nav"><a class="brand" href="../index.html">WTIP Practical Programs</a><div class="links"><a href="../index.html">Home</a><a href="index.html">Css Programs</a></div></nav>
+<div class="nav">
+<div>Logo</div>
+<ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+<footer class="site-footer">Pusala Nithin • 250200185 • Section 5 • Web Technology and Internet Programming</footer></body>
+</html>

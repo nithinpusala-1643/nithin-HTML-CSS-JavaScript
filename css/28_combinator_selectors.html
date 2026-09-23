@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>28 - Combinator Selectors</title>
+<style>
+        div p { color: blue; } /* Descendant */
+        div > span { color: red; font-weight: bold; } /* Direct Child */
+        h2 + p { color: green; } /* Adjacent Sibling */
+        h2 ~ p { font-style: italic; } /* General Sibling */
+    </style>
+<link href="../assets/style.css" rel="stylesheet"/></head>
+<body><nav class="site-nav"><a class="brand" href="../index.html">WTIP Practical Programs</a><div class="links"><a href="../index.html">Home</a><a href="index.html">Css Programs</a></div></nav>
+<div><span>Direct Child Span</span><p>Descendant Paragraph</p></div>
+<h2>Heading</h2>
+<p>Adjacent sibling paragraph (Immediate next)</p>
+<p>General sibling paragraph</p>
+<footer class="site-footer">Pusala Nithin • 250200185 • Section 5 • Web Technology and Internet Programming</footer></body>
+</html>

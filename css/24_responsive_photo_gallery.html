@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>24 - Responsive Photo Gallery</title>
+<style>
+        body { font-family: sans-serif; padding: 20px; background: #111; color: white; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .gallery-item { background: #333; height: 150px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: bold; transition: transform 0.3s; }
+        .gallery-item:hover { transform: scale(1.05); background: #555; }
+    </style>
+<link href="../assets/style.css" rel="stylesheet"/></head>
+<body><nav class="site-nav"><a class="brand" href="../index.html">WTIP Practical Programs</a><div class="links"><a href="../index.html">Home</a><a href="index.html">Css Programs</a></div></nav>
+<h1>Photo Gallery</h1>
+<div class="gallery">
+<div class="gallery-item">Photo 1</div>
+<div class="gallery-item">Photo 2</div>
+<div class="gallery-item">Photo 3</div>
+<div class="gallery-item">Photo 4</div>
+</div>
+<footer class="site-footer">Pusala Nithin • 250200185 • Section 5 • Web Technology and Internet Programming</footer></body>
+</html>

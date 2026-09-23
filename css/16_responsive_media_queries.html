@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>16 - Media Queries</title>
+<style>
+        body { font-family: sans-serif; margin: 0; padding: 20px; text-align: center; transition: background 0.3s; }
+        .responsive-box { padding: 40px; color: white; font-size: 1.5rem; border-radius: 8px; }
+        @media (max-width: 600px) { body { background: #e74c3c; } .responsive-box { background: #c0392b; } }
+        @media (min-width: 601px) and (max-width: 1024px) { body { background: #f1c40f; color: #333; } .responsive-box { background: #f39c12; } }
+        @media (min-width: 1025px) { body { background: #2ecc71; } .responsive-box { background: #27ae60; } }
+    </style>
+<link href="../assets/style.css" rel="stylesheet"/></head>
+<body><nav class="site-nav"><a class="brand" href="../index.html">WTIP Practical Programs</a><div class="links"><a href="../index.html">Home</a><a href="index.html">Css Programs</a></div></nav>
+<h1>Resize screen to test Media Queries</h1>
+<div class="responsive-box">Red: Mobile | Yellow: Tablet | Green: Desktop</div>
+<footer class="site-footer">Pusala Nithin • 250200185 • Section 5 • Web Technology and Internet Programming</footer></body>
+</html>

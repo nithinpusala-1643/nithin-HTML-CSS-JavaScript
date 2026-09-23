@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>07 - CSS Positioning</title>
+<style>
+        body { font-family: sans-serif; height: 1500px; padding: 20px; }
+        .relative-box { position: relative; top: 10px; left: 20px; background: #e74c3c; color: white; padding: 15px; width: 250px; }
+        .absolute-box { position: absolute; top: 10px; right: 10px; background: #9b59b6; color: white; padding: 10px; }
+        .fixed-box { position: fixed; bottom: 20px; right: 20px; background: #2ecc71; color: white; padding: 15px; border-radius: 30px; }
+        .sticky-box { position: sticky; top: 0; background: #f1c40f; padding: 10px; font-weight: bold; }
+    </style>
+<link href="../assets/style.css" rel="stylesheet"/></head>
+<body><nav class="site-nav"><a class="brand" href="../index.html">WTIP Practical Programs</a><div class="links"><a href="../index.html">Home</a><a href="index.html">Css Programs</a></div></nav>
+<div class="sticky-box">Sticky Header (Stays at top while scrolling)</div>
+<h1>Positioning Demo</h1>
+<div class="relative-box">
+        Relative Box
+        <div class="absolute-box">Absolute</div>
+</div>
+<div class="fixed-box">Fixed Badge</div>
+<footer class="site-footer">Pusala Nithin • 250200185 • Section 5 • Web Technology and Internet Programming</footer></body>
+</html>
